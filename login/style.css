@@ -4,7 +4,7 @@
     border-radius: 25px;
     max-width: 70%;
     color: white;
-    margin-top: 200px !important;
+    margin-top: 50px !important;
     
 }
 
@@ -15,4 +15,18 @@ background-size: cover;
 /* min-height: 100vh; */
 
 
+}
+
+.row-imagen{
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo{
+    
+    width: 500px;
+    height:500px;
 }
