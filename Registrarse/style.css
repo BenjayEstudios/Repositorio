@@ -1,0 +1,36 @@
+body{
+    background: url(../lib/login/background.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    margin-top: 110px;
+    background-color: rgb(0,0,0,0.7);
+    color: white;
+    border-radius: 10px;
+}
+.form-control, .form-select{
+    background-color: rgba(63, 63, 63, 0.3) !important;
+    border: none !important;
+    color: white !important;
+}
+option{
+    background: black;
+}
+.form-control:focus, .form-select:focus{
+    box-shadow: 0 0 0 0.15rem rgb(0 0 0 / 25%);
+}
+.barra{
+    background-color: rgb(0,0,0,0.7);
+}
+
+.btn-dark{
+    background-color: black;
+    border: none;
+}
+.titulo{
+    width: 200px; /* Ancho fijo del elemento */
+    position: absolute; /* Para poder usar left y top */
+    left: 50%; /* Coloca el borde izquierdo del elemento en el centro horizontal */
+    transform: translateX(-50%);
+}
