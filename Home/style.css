@@ -1,0 +1,23 @@
+body{
+
+    background-color: gray;
+}
+
+.con{
+
+    border:2px solid black;
+    height: 100px;
+    
+    
+}
+
+.columna{
+    border:2px solid black;
+
+}
+
+.carrusel{
+
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
