@@ -13,16 +13,17 @@
 
 
 body{
-background:url(ropa\ fondo-3.jpg) no-repeat center center fixed;
-background-size: cover;
-
-/* min-height: 100vh; */
+    background: url(../lib/login/background.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .registrarse{
    
     margin-left: 60px;
 }
+
+
+
 
 .labelemail,.labelpassword{
     margin-bottom: 10px !important;
