@@ -1,10 +1,10 @@
 .red{
     background-color: rgb(0,0,0,0.7);
     border: solid black 3px;
-    border-radius: 25px;
-    max-width: 70%;
+    border-radius: 20px;
+    max-width: 600px ;
     color: white;
-    margin-top: 50px !important;
+    margin-top: 0px !important;
     
 }
 
@@ -16,17 +16,27 @@ background-size: cover;
 
 
 }
+.registrarse{
+   
+    margin-left: 60px;
+}
+
+.labelemail,.labelpassword{
+    margin-bottom: 10px !important;
+}
 
 .row-imagen{
-    height: 300px;
     
+    height: 300px;
     display: flex;
     justify-content: center;
 
 }
 
 .titulo{
+    position: relative;
+    bottom: 50px;
     
     width: 500px;
-    height:500px;
+    height:400px;
 }
