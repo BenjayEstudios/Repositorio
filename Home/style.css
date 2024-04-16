@@ -1,23 +1,84 @@
+.red{
+    position: relative;
+    bottom: 100px;
+    background-color: rgb(0,0,0,0.7);
+    border: solid black 3px;
+    border-radius: 20px;
+    max-width: 650px ;
+    color: white;
+    margin-top: 0px !important;
+    
+    
+}
+
+
 body{
+background:url(ropa\ fondo-3.jpg) no-repeat center center fixed;
+background-size: cover;
 
-    background-color: gray;
+/* min-height: 100vh; */
 }
 
-.con{
+.registrarse{
+   
+    margin-left: 60px;
+}
 
-    border:2px solid black;
-    height: 100px;
+.labelemail,.labelpassword{
+    margin-bottom: 10px !important;
+}
+
+.row-imagen{
     
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo{
     
+    position: relative;
+    bottom: 90px;
+    
+    width: 500px;
+    height:400px;
 }
 
-.columna{
-    border:2px solid black;
+.barra{
 
+    background-color: rgb(0,0,0,0.7);
 }
 
-.carrusel{
 
-    background-color: rgb(0, 0, 0);
-    height: 100px;
+.carousel-inner img {
+  height: 150px;
+}
+
+
+.colum{
+
+    
+    height: 100vh;
+}
+
+.imagenes-ropa{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
+    justify-content: center;  
+}
+
+.card{
+ 
+    width: 33.3333%;  /* Aproximadamente un tercio del contenedor */
+    height: auto;
+    margin: 30px;
+}
+
+.seccion{
+    text-align: center;
+    color: white;
+    background-color: rgb(0,0,0,0.7);
+    max-height: 350px;
 }
