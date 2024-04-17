@@ -80,7 +80,7 @@
 .col-12{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
 
 }
 .card {
@@ -103,7 +103,21 @@
 body{
     background-image: url(../Home/fondo-back.png);
 }
-
-.form-label, .form-control{
-    text-align: left !important;
+.container{
+    margin-top: 110px;
+    background-color: rgb(0,0,0,0.7);
+    color: white;
+    border-radius: 10px;
+    
+}
+.form-control, .form-select{
+    background-color: rgba(63, 63, 63, 0.3) !important;
+    border: none !important;
+    color: white !important;
+}
+option{
+    background: black;
+}
+.form-control:focus, .form-select:focus{
+    box-shadow: 0 0 0 0.15rem rgb(0 0 0 / 25%);
 }
