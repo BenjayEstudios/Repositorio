@@ -66,6 +66,8 @@ body{
     width: 33.3333%;
     height: auto;
     margin: 30px;
+    background-color: rgb(0, 0, 0, 0.7) ;
+    color: white;
 }
 
 .seccion {
