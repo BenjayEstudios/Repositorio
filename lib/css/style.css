@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* ; */
 }
 .red{
     background-color: red;
@@ -12,4 +12,98 @@ body{
 .semi-black{
     color: white;
     background-color: rgb(0, 0, 0, 0.7);
+}
+
+.red {
+    position: relative;
+    bottom: 100px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border: solid black 3px;
+    border-radius: 20px;
+    max-width: 650px;
+    color: white;
+    margin-top: 0px !important;
+}
+
+.registrarse {
+    margin-left: 60px;
+}
+
+.labelemail,
+.labelpassword {
+    margin-bottom: 10px !important;
+}
+
+.row-imagen {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo {
+    position: relative;
+    bottom: 90px;
+    width: 500px;
+    height: 400px;
+}
+
+.barra {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+
+.colum {
+    height: 100vh;
+}
+
+.imagenes-ropa {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
+    justify-content: center;
+}
+
+.card {
+    width: 33.3333%;
+    height: auto;
+    margin: 30px;
+}
+
+.seccion {
+    background-color: #EFEEE2;
+    text-align: left;
+    color: black;
+    max-height: 100vh;
+}
+
+.textsecc {
+    color: black;
+    margin-top: 5px;
+    text-align: center;
+    max-height: 100vh;
+}
+
+.textocarru {
+    text-align: center;
+    color: white;
+}
+
+.botoncarru {
+    background-color: black;
+}
+
+.btnbuscar {
+    color: white;
+}
+
+.fondocarru {
+    background-color: black;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.icon {
+    color: white;
 }
