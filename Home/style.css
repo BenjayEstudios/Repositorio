@@ -9,14 +9,11 @@
     margin-top: 0px !important;
 }
 
-<<<<<<< HEAD
 .card {
     background-color: rgb(0, 0, 0, 0.7) ;
     color: white;
 }
 
-=======
->>>>>>> ecca3dd1cc1c3c9b34d823d0cb0440405583100f
 .img-fondo {
     background: url(fondo-back.png) no-repeat center center fixed;
     background-size: cover;
