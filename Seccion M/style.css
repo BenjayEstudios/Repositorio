@@ -9,6 +9,11 @@
     margin-top: 0px !important;
 }
 
+.card {
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+}
+
 body {
     background: url(../Home/fondo-back.png) no-repeat center center fixed;
     background-size: cover;
