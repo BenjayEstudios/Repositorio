@@ -9,6 +9,13 @@
     margin-top: 0px !important;
 }
 
+body {
+    background: url(../Home/fondo-back.png) no-repeat center center fixed;
+    background-size: cover;
+
+    /* min-height: 100vh; */
+}
+
 .registrarse {
     margin-left: 60px;
 }
