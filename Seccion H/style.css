@@ -58,6 +58,7 @@
 }
 
 .seccion {
+    
     text-align: left;
     color: black;
     max-height: 200px;
@@ -68,4 +69,20 @@
     margin-top: 5px;
     text-align: center;
     max-height: 100vh;
+}
+
+.textocarru {
+    text-align: center;
+    color: white;
+}
+
+.botoncarru {
+    background-color: black;
+}
+
+.fondocarru {
+    background-color: black;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
