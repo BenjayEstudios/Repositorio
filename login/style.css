@@ -9,6 +9,18 @@
     margin-top: 0px !important;
 }
 
+.bntregister {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.bntrecuperar {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
 
 body {
     background: url(../lib/img/fondo-back.png) no-repeat center center fixed;
@@ -17,7 +29,8 @@ body {
     /* min-height: 100vh; */
 }
 
-.registrarse {
+.registrarse,
+.Forgetpass {
 
     margin-left: 60px;
 }

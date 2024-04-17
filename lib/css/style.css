@@ -1,14 +1,21 @@
-body{
+body {
     /* background: url('https://images.hdqwalls.com/wallpapers/sleeping-night-dv.jpg' ) ; */
-    background: url(../img/fondo-back.png)  no-repeat center center fixed;
+    background: url(../img/fondo-back.png) no-repeat center center fixed;
     background-size: cover;
 }
-.red{
+
+.red {
     background-color: red;
 }
-.semi-black{
+
+.semi-black {
     color: white;
     background-color: rgb(0, 0, 0, 0.7);
+}
+
+.card {
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
 }
 
 .red {
@@ -106,6 +113,6 @@ body{
     color: white;
 }
 
-a.nav-link.dropdown-toggle{
+a.nav-link.dropdown-toggle {
     color: white;
 }
