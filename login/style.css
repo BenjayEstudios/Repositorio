@@ -15,6 +15,13 @@
     text-decoration: none;
 }
 
+.bntrecuperar {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
 body {
     background: url(../lib/img/fondo-back.png) no-repeat center center fixed;
     background-size: cover;
@@ -22,8 +29,9 @@ body {
     /* min-height: 100vh; */
 }
 
-.registrarse,.Forgetpass {
-    
+.registrarse,
+.Forgetpass {
+
     margin-left: 60px;
 }
 
