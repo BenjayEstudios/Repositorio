@@ -9,8 +9,10 @@
     <title>Home</title>
 </head>
 
+    
+
 <body>
-    <img src="https://images4.alphacoders.com/134/1347180.png" class="fondo" alt="">
+
     <nav class="navbar barra navbar-expand-lg text-center " data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="../lib/img/LogoMenu.png" width="200"></a>
@@ -21,27 +23,38 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">
+                    <!-- a -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../Seccion H/Seccion H.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-mars"></i>
                             &nbsp;Hombre
                         </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Poleras</a></li>
+                          <li><a class="dropdown-item" href="#">Polerones</a></li>
+                          <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">
+                    <!-- b -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../seccion M/mujer.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-venus"></i>
                             &nbsp;Mujer
                         </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Poleras</a></li>
+                          <li><a class="dropdown-item" href="#">Polerones</a></li>
+                          <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                        </ul>
                     </li>
                 </ul>
                 <div class="ms-2 ps-2 me-2 pe-2">
-                    <a class="nav-link text-light" href="#">
+                    <a class="nav-link text-light" href="../login/login.html">
                         <h3><i class="fa-solid fa-user"></i></h3>
                     </a>
                 </div>
                 <div class="ms-2 ps-2 me-2 pe-2">
-                    <a class="nav-link text-light" href="#">
+                    <a class="nav-link text-light" href="../carrito/carrito.html">
                         <h3><i class="fa-solid fa-cart-shopping"></i></h3>
                     </a>
                 </div>
@@ -50,7 +63,7 @@
         </div>
     </nav>
     <!-- HOME -->
-    <div id="carouselExampleIndicators" class="carousel slide col-12 col-md- col-lg-12 mx-auto">
+    <div id="carouselExampleIndicators" class="carousel slide col-12 col-md-12 col-lg-11 mt-5 mx-auto">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -78,22 +91,11 @@
     </div>
         
     <!-- Inicio codigo seccion principal -->
-    <div class="container-fluid secciones">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 colum imagenes-ropa">
-            <div class="col-4 col-md-3 col-lg-2 mt-2 semi-black">
-                <ul class="nav flex-column"><h2 class="ms-2 me-2">Categoria</h2>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Hombre</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Mujer</a>
-                    </li>
-                  </ul>
-            </div>
-
+    <div class=" ">
+        <div class="col-12  imagenes-ropa">
             <div class="card" style="width: 18rem ;">
                 <img src="https://hmchile.vtexassets.com/arquivos/ids/5879574-483-725?v=638395130457500000&width=483&height=725&aspect=true"
-                    class="card-img-top " alt="...">
+                    class="card-img-top ">
                 <div class="card-body">
                     <h5 class="card-title">Loose Jeans Azules</h5>
                     <p class="card-text">Jeans de Algodon Grueso</p>
@@ -177,71 +179,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-8 col-md-9 col-lg-10 colum imagenes-ropa">
-                <!-- ITEM -->
-                <div class="card mt-1" style="width: 15rem ; heinght:30rem;">
-                    <img src="https://i.pinimg.com/736x/66/c0/89/66c089e88e0d053256337c1b784283a3.jpg" 
-                    class="card-img-top img-fondo">
-                    <div class="card-body">
-                        <h5 class="card-title">Pantalones</h5>
-                        <div class="row">
-                            <div class="col-6">Precio:<br>
-                                               Colores:<br>
-                                               Material:</div>
-                            <div class="col-6">$12.990<br>
-                                               ⬛🟩🟪.<br>
-                                               Tela.</div>
-                        </div>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                </div>
-                
-                <!-- <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div> -->
-            <!-- </div> -->
+    </div>
 
     <!-- Fin codigo seccion principal -->
 
