@@ -46,6 +46,12 @@ function enviarFormulario() {
         console.log("El telefono es obligatorio");
         alert("El telefono es obligatorio");
     }
+    else if (/[^0-9\s\-()]/.test(v_telefono)){
+        console.log("Debe ingresar solo numeros");
+        alert("Solo se permiten numeros en telefono");
+
+
+    }
 
     // DIRECCION //
     else if(v_direccion.trim() === '') {
