@@ -104,3 +104,6 @@ body{
     background-image: url(../Home/fondo-back.png);
 }
 
+.form-label, .form-control{
+    text-align: left !important;
+}
