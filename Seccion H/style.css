@@ -58,10 +58,10 @@
 }
 
 .seccion {
-    
+    background-color: #EFEEE2;
     text-align: left;
     color: black;
-    max-height: 200px;
+    max-height: 100vh;
 }
 
 .textsecc {
