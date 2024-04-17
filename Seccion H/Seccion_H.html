@@ -4,15 +4,12 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../lib/css/style.css">
-
-    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Seccion Hombre</title>
 </head>
 
-
-
 <body>
-
+    <!-- inicio codigo de navbar -->
     <nav class="navbar barra navbar-expand-lg text-center " data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="../Home/index.html"><img src="../lib/img/LogoMenu.png" width="200"></a>
@@ -25,49 +22,45 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                     <!-- a -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <i class="fa-solid fa-mars"></i>
                             &nbsp;Hombre
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="../Seccion H/Seccion_H.html">Hombre</a></li>
+                            <li><a class="dropdown-item" href="./Seccion_H.html">Hombre</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-
-                            <li><a class="dropdown-item" href="../Seccion H/poleras.html">Poleras</a></li>
-                            <li><a class="dropdown-item" href="../Seccion H/polerones.html">Polerones</a></li>
-                            <li><a class="dropdown-item" href="../Seccion H/pantalones.html">Pantalones</a></li>
-                            <li><a class="dropdown-item" href="../Seccion H/chaquetas.html">Chaquetas</a></li>
+                            <li><a class="dropdown-item" href="poleras.html">Poleras</a></li>
+                            <li><a class="dropdown-item" href="polerones.html">Polerones</a></li>
+                            <li><a class="dropdown-item" href="pantalones.html">Pantalones</a></li>
+                            <li><a class="dropdown-item" href="chaquetas.html">Chaquetas</a></li>
                         </ul>
                     </li>
                     <!-- b -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <i class="fa-solid fa-venus"></i>
                             &nbsp;Mujer
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="../seccion M/Seccion_M.html">Mujer</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="../Seccion M/poleras.html">Poleras</a></li>
-                            <li><a class="dropdown-item" href="../Seccion M/polerones.html">Polerones</a></li>
-                            <li><a class="dropdown-item" href="../Seccion M/pantalones.html">Pantalones</a></li>
-                            <li><a class="dropdown-item" href="../Seccion M/chaquetas.html">Chaquetas</a></li>
+                            <li><a class="dropdown-item" href="../Home/index.html">Ver Todo</a></li>
+                            <li><a class="dropdown-item" href="">Poleras</a></li>
+                            <li><a class="dropdown-item" href="">Polerones</a></li>
+                            <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                            <li><a class="dropdown-item" href="#">Chaquetas</a></li>
                         </ul>
                     </li>
                 </ul>
                 <div class="ms-2 ps-2 me-2 pe-2">
-                    <a class="nav-link text-light" href="../login/login.html">
+                    <a class="nav-link text-light" href="#">
                         <h3><i class="fa-solid fa-user"></i></h3>
                     </a>
                 </div>
                 <div class="ms-2 ps-2 me-2 pe-2">
-                    <a class="nav-link text-light" href="../carrito/carrito.html">
+                    <a class="nav-link text-light" href="#">
                         <h3><i class="fa-solid fa-cart-shopping"></i></h3>
                     </a>
                 </div>
@@ -75,48 +68,49 @@
             </div>
         </div>
     </nav>
-    <!-- HOME -->
-    <div id="carouselExampleIndicators" class="carousel slide col-12 col-md-12 col-lg-11 mt-5 mx-auto">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <!-- fin codigo de navbar -->
+
+    <!-- Inicio codigo carousel -->
+    <div class="container col-8 mt-4 mb-4">
+        <div class="row">
+            <div class="row container fondocarru">
+                <div id="carouselExample" class="carousel slide container mt-4 mb-4">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active textocarru">
+                            Paga Con Hasta 6 Cuotas Sin Interes
+                        </div>
+                        <div class="carousel-item textocarru">
+                            <class="d-block w-100" alt="...">
+                                Ofertas Con %40 De Descuento En Productos Seleccionados
+                        </div>
+                        <div class="carousel-item textocarru">
+                            <class="d-block w-100" alt="...">
+                                Envios Gratis Para Usuarios Registrados En Compras Desde $50.000
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon botoncarru" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon botoncarru" aria-hidden="true"></span>
+                        <span class="visually-hidden ">Next</span>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://img.ltwebstatic.com/images3_ccc/2024/04/15/19/17131653250dd2ce5d8379a63c2ededb9cbe1d54a3_thumbnail_2000x.webp"
-                    class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://img.ltwebstatic.com/images3_ccc/2024/04/15/c0/1713162830b4835e5a1c7416bf5754cf4dd7f6c9f7.webp"
-                    class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://img.ltwebstatic.com/images3_ccc/2024/04/15/a4/1713162917afe65267fac45020bad03761f6580f14_thumbnail_2000x.webp"
-                    class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+    <!-- Fin codigo carousel -->
 
     <!-- Inicio codigo seccion principal -->
-    <div class=" ">
-        <div class="col-12  imagenes-ropa">
+    <div class="container-fluid secciones">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 colum imagenes-ropa">
+            <br>
             <div class="card" style="width: 18rem ;">
                 <img src="https://hmchile.vtexassets.com/arquivos/ids/5879574-483-725?v=638395130457500000&width=483&height=725&aspect=true"
-                    class="card-img-top ">
+                    class="card-img-top " alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Loose Jeans Azules</h5>
                     <p class="card-text">Jeans de Algodon Grueso</p>
@@ -200,12 +194,12 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="https://hmchile.vtexassets.com/arquivos/ids/5524924-483-725?v=638295761980230000&width=483&height=725&aspect=true"
+                <img src="https://hmchile.vtexassets.com/arquivos/ids/5640200-483-725?v=638322267357370000&width=483&height=725&aspect=true"
                     class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Polera Nirvana</h5>
-                    <p class="card-text">Polera Con Estampado</p>
-                    <p>$13.990</p>
+                    <h5 class="card-title">Poleron Pokemon</h5>
+                    <p class="card-text">Poleron con Logo</p>
+                    <p>$24.990</p>
                     <a href="#" class="btn btn-primary container"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                             height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                             <path
@@ -214,68 +208,12 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="https://hmchile.vtexassets.com/arquivos/ids/5454286-483-725?v=638267262194770000&width=483&height=725&aspect=true"
+                <img src="https://hmchile.vtexassets.com/arquivos/ids/5998839-483-725?v=638438311947070000&width=483&height=725&aspect=true"
                     class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Pantalon Jeans Cargo</h5>
-                    <p class="card-text">Pantalon De Algodon Grueso</p>
-                    <p>$22.990</p>
-                    <a href="#" class="btn btn-primary container"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                            height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
-                        </svg></a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="https://hmchile.vtexassets.com/arquivos/ids/5739995-483-725?v=638323339133070000&width=483&height=725&aspect=true"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Chaqueta Con Chiporro</h5>
-                    <p class="card-text">Chaqueta Con Cierre Delante</p>
-                    <p>$54.990</p>
-                    <a href="#" class="btn btn-primary container"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                            height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
-                        </svg></a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="https://hmchile.vtexassets.com/arquivos/ids/5755837-483-725?v=638323484494500000&width=483&height=725&aspect=true"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Poleron Deportivo</h5>
-                    <p class="card-text">Poleron 100% Algodon Deportivo</p>
-                    <p>$18.990</p>
-                    <a href="#" class="btn btn-primary container"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                            height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
-                        </svg></a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem ;">
-                <img src="https://hmchile.vtexassets.com/arquivos/ids/6014615-483-725?v=638444393716930000&width=483&height=725&aspect=true"
-                    class="card-img-top " alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Poleron Con Estampado</h5>
-                    <p class="card-text">Poleron 100% Algodon</p>
-                    <p>$20.990</p>
-                    <a href="#" class="btn btn-primary container"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                            height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                            <path
-                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
-                        </svg></a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="https://hmchile.vtexassets.com/arquivos/ids/5429857-483-725?v=638260336245300000&width=483&height=725&aspect=true"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Pantalon Cargo</h5>
-                    <p class="card-text">Pantalon en Lona de Algodon</p>
-                    <p>$14.990</p>
+                    <p class="card-text">Poleron Basico 100% Algodon</p>
+                    <p>$8.990</p>
                     <a href="#" class="btn btn-primary container"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                             height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                             <path
@@ -288,15 +226,10 @@
 
     <!-- Fin codigo seccion principal -->
 
-    </div>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
-    <script src="https://kit.fontawesome.com/57a1c6d8a3.js" crossorigin="anonymous">
-    </script>
+    <script src="https://kit.fontawesome.com/57a1c6d8a3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

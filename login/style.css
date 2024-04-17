@@ -11,7 +11,7 @@
 
 
 body {
-    background: url(ropa\ fondo-3.jpg) no-repeat center center fixed;
+    background: url(../lib/img/fondo-back.png) no-repeat center center fixed;
     background-size: cover;
 
     /* min-height: 100vh; */
@@ -38,7 +38,7 @@ body {
 .titulo {
     position: relative;
     bottom: 90px;
-
+    z-index: -1;
     width: 500px;
     height: 400px;
 }
