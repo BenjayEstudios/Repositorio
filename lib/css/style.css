@@ -1,10 +1,10 @@
 body{
     /* background: url('https://images.hdqwalls.com/wallpapers/sleeping-night-dv.jpg'); */
-    background: url('https://images4.alphacoders.com/134/1347180.png');
+    /* background: url('https://images4.alphacoders.com/134/1347180.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    /* ; */
+    background-position: center; */
+    /* object-fit: cover; */
 }
 .red{
     background-color: red;
