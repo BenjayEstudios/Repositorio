@@ -80,6 +80,10 @@
     background-color: black;
 }
 
+.btnbuscar {
+    color: white;
+}
+
 .fondocarru {
     background-color: black;
     border-radius: 10px;
