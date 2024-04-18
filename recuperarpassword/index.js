@@ -1,8 +1,6 @@
 function recuperarPassword(){
 
-    var v_email = document.getElementById("email")
-    console.log("Hola")
-
+    var v_email = document.getElementById("email").value;
     // EMAIL //
     if(v_email.trim() === '') {
         console.log("El email es obligatorio");
