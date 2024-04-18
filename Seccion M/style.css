@@ -48,8 +48,8 @@ body {
     background-color: rgb(0, 0, 0, 0.7);
 }
 
-.col-footer{
-    
+.col-footer {
+
     display: flex;
     justify-content: center;
     align-items: end;
@@ -57,13 +57,14 @@ body {
     color: gray;
 }
 
-.footer{
+.footer {
     border: 4px solid black;
     background-color: rgb(0, 0, 0, 0.9);
     height: 260px;
 }
-.col-footer2{
-   
+
+.col-footer2 {
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -71,9 +72,11 @@ body {
     color: gray;
 
 }
-.col-footer1,.col-footer3{
-    
-   
+
+.col-footer1,
+.col-footer3 {
+
+
     display: flex;
     text-align: center;
     flex-wrap: wrap;
@@ -94,7 +97,7 @@ body {
     flex-wrap: wrap;
     min-width: 200px;
     justify-content: center;
-    
+
 }
 
 .card {
